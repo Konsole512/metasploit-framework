@@ -160,7 +160,6 @@ if is_installed
       $stdout.puts ""
       $stdout.puts "[-] You must be able to read the product key for the"
       $stdout.puts "[-]	Metasploit installation in order to run msfupdate."
-      $stdout.puts "[-] Metasploit installation in order to run msfupdate."
       $stdout.puts "[-] Usually, this means you must be root (EUID 0)."
       maybe_wait_and_exit 10
     end
